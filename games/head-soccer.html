@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VWEWRZ747T"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-VWEWRZ747T');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UL24 - Head Soccer</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="shortcut icon" type="image/ico" href="/img/favicon.ico"/>
+</head>
+<body>
+    <div class="resize-overlay">
+        <p>The window is not large enough to run this webpage.</p>
+        <p class="smaller-text">Try zooming out the page.</p>
+    </div>
+    <header>
+        <div class="navbar">
+            <div class="website-name">
+                <a href="/allgames.html"><strong>Unlocked24</strong></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- WEBSITE MAIN CONTENT HERE -->
+    <main>
+        <div class="game">
+              <iframe class="game-iframe" id="overlay" src="../overlay.html" width="775" height="460" scrolling="none" frameborder="0" allowfullscreen="" style="position: absolute; z-index: 1000;"></iframe>
+            <iframe class="game-iframe" id="game-area" src="/gamefiles/head-soccer/index.html" width="775" height="460" scrolling="none" frameborder="0" allowfullscreen="" style="display: block;"></iframe>
+        </div>
+        <button class="fullscreen-button" id="fullscreen-btn" onclick="toggleFullscreen()">Fullscreen</button>
+    </main>
+
+    <!-- WEBSITE MAIN CONTENT FINISHED -->
+
+
+    <script src="../js/alert-banner.js"></script>
+    <script src="../js/browser-check.js"></script>
+     
+    <script src="../js/overlay.js"></script>
+    <script src="../js/fullscreen.js"></script>
+</body>
+
+</html>
